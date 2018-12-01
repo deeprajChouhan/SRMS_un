@@ -1,0 +1,86 @@
+.topnav {
+  	overflow: hidden;
+  	background-color: #fff;
+	border-bottom: 2px solid #ddd;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 8px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:  #3498db ;
+  color: #fff;
+}
+
+.active {
+  background-color:  #3498db ;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}																																					
+
+@media screen and (max-width: 700px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.logosize{
+	height: 70px;
+	padding: 10px;
+}
+@media (width: 480px) {
+	.logosize{
+		height: 75px;
+		padding: 10px;
+	}
+}
+@media (min-width: 576px) {
+	.logosize{
+		height: 80px;
+		padding: 10px;
+	}
+}
+@media (min-width: 768px) {
+	.logosize{
+		height: 90px;
+		padding: 10px;
+	}
+}
+@media (min-width: 992px) {
+	.logosize{
+		height: 100px;
+		padding: 10px;
+	}
+}
+@media (min-width: 1200px) {
+	.logosize{
+		height: 110px;
+		padding: 10px;
+	}
+}

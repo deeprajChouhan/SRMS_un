@@ -1,0 +1,450 @@
+@font-face{
+    font-family: font1;
+    src:url('../fonts/Quicksand/Quicksand-Light.otf');
+}
+.modify{
+    font-family: font1;
+    font-size: 50px;
+    position: relative;
+}
+/*Side navigation bar css code*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #2e2e2e;
+  opacity:1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav td {
+  font-family: font1;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav td:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*Student nav css code*/
+.student {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #2e2e2e;
+  opacity:1;
+  overflow-x: hidden;
+  transition: 0.8s;
+  padding-top: 60px;
+}
+
+.student td {
+  font-family: font1;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.student td:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.student .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.card a{color:black;}
+.card a:visited{color:black;}
+.card{
+  margin:5px;
+  border:none ;
+  border-radius:15px;
+  padding:50px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color: #FF9999;
+  transition: 0.5s;
+  font-family:font1;
+  font-size:30px;
+  background-color:#FFFF99;
+  text-decoration-color: black;
+}
+.card:hover{
+  transition:0.5s;
+  padding-top:25px;
+  padding-bottom:25px;
+  text-decoration: underline;
+   /* box-shadow: 0px 0px 2px 2px grey;*/
+  margin:5px;
+ cursor:pointer;
+}
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+.student_name{
+  background-color: transparent;
+  border:none;
+  font-family: font1;
+  padding:6px;
+}
+.displaymarks td{
+  font-size: 30px;
+}
+.tablehead{
+  font-size:30px;
+  font-family:font1;
+  padding-bottom: 100px;
+}
+.list{
+  width:95%;
+  border-radius:5px;
+  border:0px;
+  font-family: font1;
+  font-size: 25px;
+  padding:5px;
+  transition: all linear 0.3s;
+}
+.list:hover{
+  border:0.5px groove grey;
+  padding:15px;
+  cursor: pointer;
+  background-color: white;
+  color:black;
+  transition: all linear 0.2s;
+}
+.Teachers{
+  width:100%;
+  border-radius:5px;
+  border:0px;
+  font-family: font1;
+  font-size: 25px;
+  padding:5px;
+  background-color:#003366;
+  color:white;
+}
+
+label{
+      display:inline-block;
+      width:200px;
+      text-align:right;
+      }
+
+      input{
+
+      }
+
+      fieldset{
+      border:none;
+      width:500px;
+      margin:0px auto;
+      }
+
+    #tbox
+      {
+          width:210px;
+/*                    height: 400px;*/
+      }
+    h2{
+        word-spacing: 10px;
+        letter-spacing: 2px;
+    }
+    label{
+        color:solid black;
+        font-size:16px;
+    }
+    .glyphicon.glyphicon-circle-arrow-left {
+      	       font-size: 40px;
+  		      }
+                button{
+                    background-color: #B6B6B4;
+                    position:absolute;
+                    transition: .5s ease;
+                    top: 0%;
+                    left: 0%;
+                            }
+                .alignleft{
+                    float:left;
+                }
+                .center{
+                    float: center;
+                }
+
+                #table-wrapper {#ta
+                  position:relative;
+                }
+                #table-scroll {
+                  height:600px;
+                  overflow:auto;
+                  margin-top:20px;
+                }
+                #table-wrapper table {
+                  width:100%;
+
+                }
+                #table-wrapper table * {
+                  background:transparent;
+                  color:black;
+                }
+                #table-wrapper table thead th .text {
+                  position:absolute;
+                  top:-20px;
+                  z-index:2;
+                  height:20px;
+                  width:35%;
+                  border:1px solid red;
+}
+.Year-Buttons{
+  padding-top:4%;
+  padding-bottom: 3%;
+}
+.year-button{
+  padding:10px;
+  border:none;
+  font-family: font1;
+  font-size: 30px;
+  background-color: transparent;
+}
+.year-button:hover{
+  font-size: 35px;
+  border:0.5px solid grey;
+  box-shadow: 4px 4px 4px 4px grey;
+  background-color: skyblue;
+}
+.form-1 {
+  /* Size & position */
+  width: 300px;
+  margin: 60px auto 30px;
+  padding: 10px;
+  position: relative; /* For the submit button positioning */
+
+  /* Styles */
+  box-shadow:
+      0 0 1px rgba(0, 0, 0, 0.3),
+      0 3px 7px rgba(0, 0, 0, 0.3),
+      inset 0 1px rgba(255,255,255,1),
+      inset 0 -3px 2px rgba(0,0,0,0.25);
+  border-radius: 5px;
+  background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+.form-1 .field {
+  position: relative; /* For the icon positioning */
+}
+.form-1 input[type=text],
+.form-1 input[type=password] {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+
+    /* Size and position */
+    width: 100%;
+    padding: 10px 18px 10px 45px;
+
+    /* Styles */
+    border: none; /* Remove the default border */
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: #777;
+    transition: color 0.3s ease-out;
+}
+
+.form-1 input[type=text] {
+    margin-bottom: 10px;
+}
+.form-1 input[type=text]:hover ~ i,
+.form-1 input[type=password]:hover ~ i {
+    color: #52cfeb;
+}
+
+.form-1 input[type=text]:focus ~ i,
+.form-1 input[type=password]:focus ~ i {
+    color: #42A2BC;
+}
+
+.form-1 input[type=text]:focus,
+.form-1 input[type=password]:focus,
+.form-1 input[type=submit]:focus {
+    outline: none;
+}
+.form-1 .submit {
+  /* Size and position */
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 17px;
+  right: -25px;
+  padding: 10px;
+  z-index: 2;
+  border-radius:50%;
+}
+.form-1 .submit:after {
+  /* Size and position */
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -2px;
+  left: 30px;
+
+  /* Styles */
+  background: #ffffff;
+
+  /* Other masks trick */
+  box-shadow: 0 62px white, -32px 31px white;
+}
+.form-1 button {
+  /* Size and position */
+  width: 100%;
+  height: 100%;
+  margin-top: 140px;
+
+
+  /* Icon styles */
+  font-size: 1.4em;
+  line-height: 1.75;
+  color: white;
+
+  /* Styles */
+  border: none; /* Remove the default border */
+  border-radius: inherit;
+  background: linear-gradient(#52cfeb, #42A2BC);
+  box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      0 1px 2px rgba(0,0,0,0.35),
+      inset 0 3px 2px rgba(255,255,255,0.2),
+      inset 0 -3px 2px rgba(0,0,0,0.1);
+
+  cursor: pointer;
+}
+.form-1 button:hover,
+.form-1 button[type=submit]:focus {
+    background: #52cfeb;
+    transition: all 0.3s ease-out;
+}
+
+.form-1 button:active {
+    background: rgb(66, 188, 66);
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.3),
+        inset 0 3px 4px rgba(0,0,0,0.3);
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+.sidemod:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+   z-index:5px;
+   height:70px;
+   font-size: 50px;
+   cursor: pointer;
+   border-radius: 15px 15px 15px 15px;
+   padding:10px;
+}
+.sidenav a{color:white;}
